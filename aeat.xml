@@ -716,6 +716,51 @@
     <record id="account_es.iva_IC_compras_21_bi_2" model="account.tax.template">
       <field name="aeat340_default_in_book_key" ref="aeat_340.aeat_340_key_R"/>
     </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_R" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_R"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_I" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_I"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_U" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_U"/>
+    </record>
+    <record id="account_es.iva_IC_compras_21_ser" model="account.tax.template">
+      <field name="aeat340_default_in_book_key" ref="aeat_340.aeat_340_key_R"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_1_R" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_1"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_R"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_1_I" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_1"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_I"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_1_U" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_1"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_U"/>
+    </record>
+    <record id="account_es.iva_IC_compras_21_ser_1" model="account.tax.template">
+      <field name="aeat340_default_in_book_key" ref="aeat_340.aeat_340_key_R"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_2_R" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_2"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_R"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_2_I" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_2"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_I"/>
+    </record>
+    <record id="aeat_340_template_type_iva_IC_compras_21_ser_2_U" model="aeat.340.type-account.tax.template">
+      <field name="tax" ref="account_es.iva_IC_compras_21_ser_2"/>
+      <field name="aeat_340_type" ref="aeat_340.aeat_340_key_U"/>
+    </record>
+    <record id="account_es.iva_IC_compras_21_ser_2" model="account.tax.template">
+      <field name="aeat340_default_in_book_key" ref="aeat_340.aeat_340_key_R"/>
+    </record>
     <record id="aeat_340_template_type_iva_sop_ex_R" model="aeat.340.type-account.tax.template">
       <field name="tax" ref="account_es.iva_sop_ex"/>
       <field name="aeat_340_type" ref="aeat_340.aeat_340_key_R"/>
